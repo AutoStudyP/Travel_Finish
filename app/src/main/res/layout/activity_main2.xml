@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tv_where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장소: "
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_how"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이동수단: "
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여행인원: "
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/rg_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여행지"
+            android:textSize="40dp" />
+
+        <RadioButton
+            android:id="@+id/rb_naju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나주" />
+
+        <RadioButton
+            android:id="@+id/rb_hawsun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="화순" />
+
+        <RadioButton
+            android:id="@+id/rb_jangsung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="장성" />
+
+        <RadioButton
+            android:id="@+id/rb_damyang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="담양" />
+
+        <RadioButton
+            android:id="@+id/rb_gwangju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="광주" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="선택" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="138dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이동수단"
+            android:textSize="40dp" />
+
+        <RadioButton
+            android:id="@+id/rb_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자가용" />
+
+        <RadioButton
+            android:id="@+id/rb_bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="대중교통" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="선택" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여행인원"
+            android:textSize="40dp" />
+
+        <RadioButton
+            android:id="@+id/rb_alone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="혼자" />
+
+        <RadioButton
+            android:id="@+id/rb_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="친구랑" />
+
+        <RadioButton
+            android:id="@+id/rb_family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가족이랑" />
+
+        <RadioButton
+            android:id="@+id/rb_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연인이랑" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="32dp"
+            android:text="선택"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택완료"
+        android:visibility="invisible"/>
+</LinearLayout>

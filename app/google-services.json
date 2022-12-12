@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "779540917444",
+    "project_id": "travel-for-gwangju",
+    "storage_bucket": "travel-for-gwangju.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779540917444:android:3693685bff92a98708ad91",
+        "android_client_info": {
+          "package_name": "com.example.firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779540917444-f2b5466mr40b2q84jierheemnn0lfq6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1l3p3dbcXGRPxvkyuGKEpdXuIwVtypiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779540917444-f2b5466mr40b2q84jierheemnn0lfq6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
